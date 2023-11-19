@@ -3,32 +3,109 @@ body{
     display:flex;
     flex-direction: column;    
 }
+
+/*header styles*/
 .header{
     display: flex;
     background-color: #1f2937;
+    justify-content: space-between;
+}
+.headLinks{
+    display:flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 
+.headerLinks{
+    margin: 50px;
+}
+/*End of header styles*/
+
+
+/*banner styles*/
 .banner{
     display: flex;
     background-color: #1f2937;
-    height: 30vw;
+    height: 20vw;
+    justify-content: space-between;
+}
+.bannerLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
 }
 
+.bannerImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*banner styles ends */
+
+/*pics and info content style */
 .picsAndInfoContent{
     display: flex;
+    height: 10vw;
+}
+
+/*pics and info content style end */
+
+/* Quote style */
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height: 30vh;
+}
+
+.quoteContent{
+    width: 70vh;
+}
+.quoteAuthor{
+    width: 70vh;
+    margin-left: auto;
+
+}
+
+/*Quote style end*/
+
+/*call to action style */
+.callToActionOverarching{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 70vh;
 }
 
 .callToAction{
+    height: 40vh;
     display: flex;
-    height: 30vw;
-    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
 }
 
-.quote{
-    background-color: #e5e7eb;
+.callToActionContent{
+    color: white;
+    margin: 40px;
+    justify-content: space-between;
 }
+/*call to action style end*/
+
 .footer{
     display: flex;
     justify-content: center;
     background-color: #1f2937;
 }
+
+
+/*header styles*/
