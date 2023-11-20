@@ -8,19 +8,20 @@ body{
 .header{
     display: flex;
     background-color: #1f2937;
-    justify-content: space-between;
+    color: white;
+    justify-content: space-around;
 }
 .headLinks{
     display:flex;
-    justify-content: space-between;
-}
-a{
-    text-decoration: none;
-    color: black;
 }
 
-.headerLinks{
-    margin: 50px;
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.headerlink{
+    margin: 10px;
 }
 /*End of header styles*/
 
@@ -29,15 +30,25 @@ a{
 .banner{
     display: flex;
     background-color: #1f2937;
-    height: 20vw;
-    justify-content: space-between;
+    height: 40vw;
+    justify-content: center;
 }
 .bannerLeft{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     width: 40vw;
+    color: white;
+}
+.bannerSign{
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 4px;
+    color: white;
+    width: 10vh;
+    height: 2.5vh;
+    border: none;
+    margin-top: 10px;
 }
 
 .bannerImages{
@@ -45,15 +56,26 @@ a{
     align-items: center;
     justify-content: center;
 }
-
+.bannerTitle{
+    font-size: 5vh;
+}
 /*banner styles ends */
 
 /*pics and info content style */
+.picsAndInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .picsAndInfoContent{
     display: flex;
-    height: 10vw;
+    height: 30vw;
+    margin-top: 5vh;
 }
-
+.picsAndInfoTitle{
+    margin-top: 3vh;
+}
 /*pics and info content style end */
 
 /* Quote style */
@@ -99,12 +121,23 @@ a{
     margin: 40px;
     justify-content: space-between;
 }
+
+.signUpButton{
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 4px;
+    color: white;
+    width: 10vh;
+}
 /*call to action style end*/
 
 .footer{
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: #1f2937;
+    height: 5vh;
+    color: white
 }
 
 
